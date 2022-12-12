@@ -68,7 +68,7 @@ body {
 }
 
 /* Jumbotron copy */
-.jumboCopy {
+.jumboCopy, .ourstory-card {
   width: 70%;
   min-width: 500px;
   max-width: 700px;
@@ -150,3 +150,19 @@ i {
 }
 
 
+/* Our Story */
+
+.ourstory-card {
+  background: url(../images/transparency.png);
+}
+
+p span {
+  display: block;
+  margin: 10px;
+}
+
+.ourstory-p {
+  font-size: 18px;
+}
+
+.ourstory-card a 
