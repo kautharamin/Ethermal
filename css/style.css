@@ -190,3 +190,43 @@ p span {
   width: 250px;
   align-self: center;
 }
+
+/* Knauf Insulation Page*/
+
+.knauf-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.knauf-cards p, a{
+  font-size: 15px;
+  margin: 2px;
+  
+}
+.sectionHeading2 {
+  color: #16181b;
+  align-self: center;
+}
+
+.card-img1 {
+  width: 250px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-img {
+  padding: 58px ;
+}
+
+.small-img2 {
+  padding-bottom: 17px;
+}
+
+.big-img {
+  width: 315px;
+  align-self: center;
+}
