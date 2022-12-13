@@ -12,16 +12,16 @@
   <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Main Page | Ethermal</title>
-  <link rel="icon" type="image/x-icon" href="./images/ethermal-icon.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Insulation | Ethermal</title>
+  <link rel="icon" type="image/x-icon" href="../images/ethermal.png">
 </head>
 
 <body>
 
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-    <a class="navbar-brand" href="#"><img src="images/ethermal.png"></a>
+    <a class="navbar-brand" href="#"><img src="../images/ethermal.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./index.html" target="_self">Main Page</a>
+          <a class="nav-link" href="../index.html" target="_self">Main Page</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/html/ourstory.html" target="_self">Our Story</a>
@@ -41,7 +41,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Our Solutions</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./html/renewable.html">Renewable Energy</a>
+            <a class="dropdown-item" href="#">Renewable Energy</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Insulation</a>
             <div class="dropdown-divider"></div>
@@ -56,67 +56,91 @@
   </nav>
   <!-- End navigation bar -->
 
-  <!-- Jumbotron -->
-  <div class="jumbotron rockBackground">
-    <div class="jumboCopy">
-      <h2 class="display-4">ethermal</h2>
-      <p class="lead">Start by finding your postcode and select your solution</p>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
-        </div>
-      </div>
-    </div>
+  <!-- Products -->
+  <div class="knauf-cards">
+  
   
     <!-- Cards -->
-    <div class="container-fluid content">
-      <h2 class="sectionHeading">Our Solutions</h2>
+    <br>
+    <br>
+    <div class="knauf-cards container-fluid content">
+      <h2 class="sectionHeading2">Products</h2>
+      <br>
       <div class="row">
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="images/solar-panel.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Renewable Energy</h5>
-              <p class="card-text">We provide a comprehensive choice of home renewable energy generators, including solar panels, wind turbines, and biomass.</p>
-              <a href="./html/renewable.html" class="btn btn-primary">Select</a>
+        <div class="card mb-3" style="max-width: 803px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="../images/product-1.jpg" class="card-img1" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Knauf Insulation Space Standard Top Up 170mm Loft Roll - 6.47m²</h5>
+                  <p class="card-text">House Type:<b> Semi-detached house</b></p>
+                  <p class="card-text">Price: <b>£24</b> </p>
+                  <p class="card-text">Price per m<sup>2</sup>:<b> £3.71</b></p>
+                  <p class="card-text">Average Installation Cost:<b> £533</b></p>
+                  <p class="card-text">Energy bill savings per year:<b> £300</b></p>
+                  <p class="card-text">Payback period:<b> 21 months</b></p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Select</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
         <!-- End card 1 -->
-
-        <!-- Card 2 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="images/insulation.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Insulation</h5>
-              <p class="card-text">We provide the optimum insulation for your needs, including external insulation, internal insulation, and window insulation.</p>
-              <a href="./html/insulation.html" class="btn btn-primary">Select</a>
+        
+         <!-- Card 2 -->
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="../images/product-2.jpg" class="card-img1" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Knauf Insulation Super Top Up 200mm Loft Roll - 5.61m²</h5>
+                    <p class="card-text">House Type:<b> Semi-detached house</b></p>
+                    <p class="card-text">Price: <b>£25</b> </p>
+                    <p class="card-text">Price per m<sup>2</sup>:<b> £4.45</b></p>
+                    <p class="card-text">Average Installation Cost:<b> £640</b></p>
+                    <p class="card-text">Energy bill savings per year:<b> £355</b></p>
+                    <p class="card-text">Payback period:<b> 22 months</b></p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Select</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
         <!-- End card 2 -->
 
-        <!-- Card 3 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="images/heat-pump.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Heat Pump</h5>
-              <p class="card-text">Heat pumps (air source or ground source) are the most affordable and low-carbon heating option for your home or neighbourhood.</p>
-              <a href="#" class="btn btn-primary">Select</a>
+         <!-- Card 3 -->
+        <div class="card mb-3" style="max-width: 803px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="../images/product-3.jpg" class="card-img1" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Knauf Insulation Eko Roll Loft insulation roll, (L)5.68m (W)1.14m (T)170mm</h5>
+                    <p class="card-text">House Type:<b> Semi-detached house</b></p>
+                    <p class="card-text">Price: <b>£24</b> </p>
+                    <p class="card-text">Price per m<sup>2</sup>:<b> £3.71</b></p>
+                    <p class="card-text">Average Installation Cost:<b> £640</b></p>
+                    <p class="card-text">Energy bill savings per year:<b> £355</b></p>
+                    <p class="card-text">Payback period:<b> 22 months</b></p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Select</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
         <!-- End card 3 -->
-
+        
       </div>
     </div>
     <!-- End cards -->
   </div>
-  <!-- End jumbotron -->
+  <!-- End of Products -->
 
  
   <footer class="bg-white">
