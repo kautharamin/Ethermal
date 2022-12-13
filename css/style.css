@@ -47,6 +47,10 @@ body {
     background: black;
 }
 
+.dropdown-item {
+  font-size: 12px;
+}
+
 
 /* Navigation links */
 .customNav a {
@@ -86,6 +90,7 @@ body {
   background-color: #938ba1;
   border: black;
   font-size: 12px;
+  
 }
 
 .input-group {
@@ -102,14 +107,15 @@ body {
   left: -97px;
 }
 
+.card {
+  margin: 0 auto;
+}
+
 .cardContainer {
   margin-top: 20px;
   text-align: center;
 }
-.card {
-  margin: 0 auto;
-  
-}
+
 .content {
   padding: 50px;
 }
@@ -165,4 +171,22 @@ p span {
   font-size: 18px;
 }
 
-.ourstory-card a 
+/* Renewable Energy */
+
+.transparent-card {
+  background-color: #f1f1f1;
+}
+
+.body-background {
+  height: 900px;
+}
+
+.card-resize {
+  width: 180px;
+  align-self: center;
+}
+
+.card-resize2 {
+  width: 250px;
+  align-self: center;
+}
